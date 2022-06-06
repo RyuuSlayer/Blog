@@ -2,80 +2,56 @@
 title: How i resurrected the oldest minecraft mod
 date: 2022-06-06 23:30:09
 categories:
-- Tech
+- Video game
 tags:
 - Personal Interest
 - Software
+- Development
 ---
-I want to write this article because preserving Video Game history is very important to me and encouraging other people to do as i do for a good cause does have next to no negatives. Are you like me and like to play retro games, do you find yourself looking on shady sites to find a copy of Super Mario World for the SNES just to download a .exe file which contains malware? Want to patch a game with a translation patch or a rom hack but the rom you've got does not work for the patch? This can be because it's corrupt or the rom requires a different **hash**. More on hashes later! Ever find yourself struggeling with managing the names in your massive rom library you have dumped / collected from deep places of the web? Boy have i got a solution for you!
 
-## The Datting scene
+The year is 2010, development on a Minecraft Mod called **AdventureCraft** has started. The one to write the mod is a man named Cryect. He worked with a few other people to create the biggest and most creative mod of the time and released it on the [Minecraft Forum](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1272366-1-3-2-adventurecraft-npc-pathing-blocks-r1095).
+But what makes it so special i hear you ask. It adds a special Debug mode which lets you create your own story through Trigger based blocks which activate when the player walks through them, thus doing whatever the Map Creator intended it to do through scripts. This opened the door to easily telling your own story through connecting a few of these Triggered Blocks, which the person playing can't see in Adventure mode.
 
-### Origins
+<iframe width="720" height="480" src="https://www.youtube.com/embed/CQSxxKkUP3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Since as early as the 90s the video game emulation/preservation group *MAME* has used so called DATS to scan good dumped ROMS against them to verify wether or not they match, this way you know that the file you have has not been tempered with in any way. This has over the years led to many DATTING-Groups to find their way into the world, three of the most noteworthy are:
+In 2011 then, development stopped, Cryect disappeared, a few years later he uploaded a Video on his YouTube channel showing a VR game he made in his job as it seems. He didn't answer anything related AdventureCraft on his personal Twitter. AdventureCraft's community shrank and we find ourselves back in 2017 where my role found it's start. I knew the mod from back then & had nostalgic feelings for it, not long after i found a download and a few maps for it.
 
-TOSEC: [Datting since 2005, both Digital & Analog Media](https://www.tosecdev.org/)
-REDUMP: [Also Datting since 2005, the goto source for Disc Based Media](http://redump.org/)
-NO-INTRO: [Datting since 2002, the goto source for Digital, Cartridge & CDN (Content Delivery Network) Media](https://datomatic.no-intro.org/)
+Let me tell ya, this is where the fun begins, the state in which AC was left... not a good one. It didn't run on 64bit systems and the 32bit it supported, it didn't do a good job at. The server for it's original launcher also didn't exist anymore. The iceing on the cake, you had to start it through a crappy .bat file which not long after got detected by Windows Defender on basically every up to date system.
 
-Now that we know, that you can get specific DATS for different consoles, you may ask: "But Ryuu, what do i do with it?" _**RomVault.**_
+I went ahead and made it run on 64bit systems, this allows it to use more than 4GB's of RAM, because it is a JAVA Program, there were ways of optimizing it's startup variables for Garbage Collection, which i did. This resulted in smoother gameplay. I didn't stop there, AC had a few game breaking flaws on AMD Gpu's which i have patched (I also made it so boats drop themselve instead of giving you wood & sticks just like in the BETA Version it is based on [B1.7.3](https://minecraft.fandom.com/wiki/Java_Edition_Beta_1.7.3)).
 
-### One Tool to manage them all
+Alright, it's not as horribble as it was, **i thought** and made a simple website for people to download it & some of it's maps.
 
-![](/assets/05-06-22/romvault.png)
+The year is 2018, here in germany you can do the so called Abitur after you 10 years of school or decide to go to a profession specific school, i did the latter and went to IT school. We had a year long group assignment to code / create something in a team, so i decided to remake AdventureCraft and my friend in class had the plan to create a new launcher for it with a website to download the maps from. (We also had a 3rd member who didn't contribute, who later got an "what would be equivalent to a **F**" in america). Quite the ambitious project, we actually had to fight for the possibility to even be allowed to do this, it also seems to have been too ambitious for our teacher at the time.
 
-At this point you first have to ask yourself, do i just want to manage the roms that i've got or do i want to expand to different consoles and spend more time collecting games than actually playing them?
+This is where the actual pain begins. **MCREATOR** a software to aid you making mods, as someone who had no clue about the modding world i opted for this tool, after 3 months of working on it with assistance of my classmate, called **SirBlock** on the official AC Discord, we decided that MCreator is no good for this task, we were limited by the tool and would have to wait months for it to update & play catchup with the actual Minecraft Version.
 
-This is a realization i had when i had about 80TB of roms on my RAID. Made a decision? Alright lets move on.
+This is when i found [**TaleCraft**](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/wip-mods/2631866-talecraft-a-mod-for-more-custom-and-advanced), a continuation by Tiffit & Longor, the latter one i got in touch with, he allowed me to continue the work on the Mod. As of today it is stuck at 1.12.2, we dropped this later on in our journey simply because it was unfeasable to update it, 1.12.2 had massive refactors on both Minecraft & the Forge Source code, which would require a massive rewrite, and as time went by this has been a good decision, because we would have to do it not only once. (Great thanks for Longors monetary support on Patreons, he was very generous and we would have stopped long ago if it wasn't for him: "Servers had to be paid")
 
-Download the newest version of [RomVault](https://romvault.com/), make sure to extract it on a fast drive (this matters because of frequent Caching), not an HDD, your roms can be stored on a drive outside of RomVault.
+Alright, nearly time to present our project, SirBlock made the launcher & the [website](https://adventurecraft.gq/) and both worked just fine (They have been refactored quite a few times to date). Around that time we actually got approved for the Discord Developers Program & having our Launcher be in Discords Game section:
 
-Your folder will look something like this excluding the Cache files:
+![](/assets/06-06-22/ac-discord.png)
 
-![](/assets/05-06-22/romvault-structure.png)
+Back then you could even have a shop on your Discord, we planned to make the maps available for there as well. Sadly we got yeeted and deleted a week after that, without a explanation :/ After explaining that we didn't sell Minecraft nothing changed. Well atleast they refunded my 20€ for applying to the developers programm ;D
 
-I am sure you noticed the DatRoot Folder. This is where you can put your DATS into manually, there is a better solution though, to which we come back later.
-The ToSort folder is the folder in which you are gonna move your roms, isos and other kind of files into, which you want RomVault to sort.
-You should also have a DatRoot folder, this is where the roms will get sorted into, you can configure the location of the DatRoot folder in the RomVault settings or the cfg.xml.
+I did my part in fixing a few issues TaleCraft had and made it be more like AdventureCraft than a continuation, people like familiarity, which later prooved itself when i tried to release a completeley reprogrammed version and about 20 people started it in a span of 3 months. _**Ouch**_ Let's skip this part.
 
-Upon starting this is what the interface looks like:
+Now we had the chance to present our project. We obviously got an **A** each, except for guy number three. Here's a [video](https://youtu.be/0pj2_brhg6A) showcasing a few of it's features (I had a bad PC).
 
-![](/assets/05-06-22/romvault-interface.png)
+In the year to come i went through the Internet Archive and looked for maps that have been lost to time, got about 45+ GB's. Most of em not worth uploading to the website because we have to pay for the Server. This is also when demand on the server went up by alot, we couldn't have handled it without the support we got by Longor & our dear [Patreons](https://www.patreon.com/AdventureCraft).
 
-Next thing we will want to do is to activate "Convert all zips to trntzips" under *Settings -> RV Settings*, while at it, you can also change your DatRoot location, if you want to do that:
+Oh boy 2019. One day suddenly alot of people joined our official Discord and threatened us to sue or even kill us, while most of it just words by a angry internet mob, they certainly weren't all wrong. The problem with AC is that it is a .jar mod made with MCP, you are suppoused to open the minecraft.jar which you legally obtain by downloading it with a valid account, then deleting the METAINF file in it's jar and dropping the MCP mod into it.
 
-![](/assets/05-06-22/romvault-rvsettings.png)
+Alright, lesson learned, but what solution do we have, we cannot take the mod out of the .jar, AC was made in a strange way in which 2 jars were chained together, and both contained both vanilla and modded files.
 
-The following are probably the most important settings for you, you can set your RomRoot to whatever location you please, be it a small 1TB external HDD or a Petabyte Server with ZFS File Deduplication. Under Archive Type, you can either choose zip or 7z, below that are a few settings you'd be interested in if you want to store your MAME set, you know what to choose if you already want to setup MAME :P
-If you only plan to store a few smaller sets and not whole 23,5TB PS2 ISO images, then make sure to choose **Single Archive**, this will make sure to put all your zipped roms into one big zip and thus saving some space, on the contrary extracting takes one more step.
+First thing we did was requiring people to be logged into the vanilla launcher, thus already making sure they can't play if they don't have a legal version of the game.
 
-![](/assets/05-06-22/romvault-directory-settings.png)
+Second thing we did was reverse engineering the [**AC source code**](https://github.com/RyuuSlayer/AC-1.7.3) through decompilation, this happened between Juli 2021 through January 2022. AC was effectively licensed under Creative Commons by Cryect, bummer that he never actually released the source code, we later had people complaining that we cannout use MCP source code in the decompiled version, early versions of MCP didn't have a license thou.
 
-All setup? Do you have the Dats you need in the DatRoot? If not jump to the **DatVault** section if you plan to automate updating your DATS.
-The next part requires a doctor title, to perform sorting & hash checking of your roms. Press these buttons in descending order and watch it do it's work with every step.
+Through reverse engineering the mod, and not keeping a single line of original mappings (class & field names in java), and no part of Mojang code in it, we effectively had new code that was ARR (All rigths reserved), i relicensed it with the permission of the two people who worked on this with me to GPLv3. We went on to put the mod on cursed-fabric, a fabric version of BETA 1.7.3.
 
-![](/assets/05-06-22/romvault-steps.png)
+The guy who stayed in the development team **TechPizza** is a programming genius, we couldn't have decompiled the project without him, this literal GigaChad writes his own Voxel Game Engine in his freetime. He is working on porting all of AC into his own engine and de-minecraftifiying it, in like 3 days he wrote a world compression format that made 550~ish megabytes be 6 megabytes. Then went on to create all of [**this**](https://www.youtube.com/watch?v=5Ojxl70fjYo) the same day. Not only does this guy have a bright future, but also does AC. Im sure i will be writing a follow up Article on how development on the standalone AdventureCraft is going.
 
-There are different hash alghorithms, just to name a few: "CRC32, SHA1, MD5". A hash is a value which is defined by it's ones and zeroes, if one is off, the file is different and thus has a different hash, thus won't match to your set. Don't touch those filthy files if you see them!
+If you aren't convinced to try this mod out, watch this:
 
-Now you are a computer wizard. Check your RomRoot folder for your games, if everything went well, most if not all of your roms should be sorted into it's respective set & be renamed.
-
--> If there are still files in ToSort, that can either mean they don't match to any of these sets (being dumped wrong or being a corrupt file can be the cause), or you haven't got the according DAT for that platform. With how easy it is, this can very quickly grow into an addiction, just make sure to check your countries laws on downloading copyrighted media for personal consumption, this can very well be allowed as long as you dont share your files, i am not the one to judge where you get your files from and if you break any laws, i did my part warning you :P
-
-![](/assets/05-06-22/romvault-datahell.png)
-
-### DatVault
-
-I have been updating Dats manually for years. But last December DatVault released, and if you are a hoarder like me, you'll love & appreciate it just like me. This is how to get there:
-
-![](/assets/05-06-22/romvault-datvault.png)
-
-Here's the part you'll not gonna like to hear, it's gonna cost money. You'll have to support GordonJ on Patreon for his incredible work.
-The benefits are daily one click Dat updates, ability to easily add new released Dats and even some custom Dats like the DeDupe ones which you can use for sets like the Dreamcast, GameCube or the Phillips CD-i across Redump, No-Intro & TOSEC to make sure those large .iso files don't have to be put into two folders(Which is irrelevant if you use ZFS file deduplication on your server).
-
-![](/assets/05-06-22/romvault-datvault-interface.png)
-
-### Where do i get good roms mister Ryuu?
-
-Because of legal reasons i can only advise you to dump them yourself, i am not allowed to directly provide you with a link to roms, but rumours have it that one or more of these Datting Organizations could be found on the [Internet-Archive](https://archive.org/details/software). no. STOP!!!
+<iframe width="720" height="480" src="https://www.youtube.com/embed/9Sm0pmBx4oI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
