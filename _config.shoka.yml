@@ -178,7 +178,7 @@ tagcloud:
 # CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org
 creative_commons:
   license: by-nc-sa
-  language: deed.zh
+  language: deed.en
 
 # Comments
 # Valine
