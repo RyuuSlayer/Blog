@@ -195,10 +195,10 @@ valine:
   serverURLs: # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
   powerMode: true
   tagMeta:
-    visitor: 新朋友
-    master: 主人
-    friend: 小伙伴
-    investor: 金主粑粑
+    visitor: New friends
+    master: Master
+    friend: Small partners
+    investor: Gold Lord
   tagColor:
     master: "var(--color-orange)"
     friend: "var(--color-aqua)"

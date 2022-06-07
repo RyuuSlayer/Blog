@@ -1,7 +1,7 @@
 alternate: Yume Shoka
 
 # Assets
-statics: / #//cdn.jsdelivr.net/gh/amehime/shoka@latest/
+statics: / #//fastly.jsdelivr.net/gh/amehime/shoka@latest/
 
 open_graph:
   #twitter_id:
@@ -56,8 +56,8 @@ post:
 # Valine
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
-  appId: #这里不要忘了改
-  appKey: #这里不要忘了改
+  appId: #Don't forget to change it here
+  appKey: #Don't forget to change it here
   placeholder: ヽ(○´∀`)ﾉ♪ # Comment box placeholder
   pageSize: 10 # Pagination size
   lang: zh-CN
@@ -69,11 +69,11 @@ valine:
 
 # bgm
 audio:
-   - title: 列表1
+   - title: Playlist 1
       list:
         - https://music.163.com/#/playlist?id=2943811283
         - https://music.163.com/#/playlist?id=2297706586
-   - title: 列表2
+   - title: Playlist 2
       list:
         - https://music.163.com/#/playlist?id=2031842656
 
