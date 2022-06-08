@@ -16,7 +16,7 @@ This is with no doubt the sad truth, which has in the past lead to ROMs going MI
 
 In this image you can exactly see what has been added, sets with MIAs are recognized as completed even with MIAs. But the incredible part about this, if someone ever scans one of these MIAs with RomVault, it will be sent to a database and be marked as found. (This can be turned off if you value privacy, though i would appreciate you keeping it on.) This feature makes RomVault the leading MIA listing.
 
-![](/assets/09-06-22/romvault-mia.png)
+![](/assets/09-06-22/romvault-graphics.png)
 
 As a nice quality of life improvement, we got blessed with custom icons which can easily be replaced with whatever icon you can dream of. Either drop this [**zip**](/assets/09-06-22/graphics-accessible.zip) (Made by johnsanc from the RV discord.) in the same folder as the RomVault.exe and rename it to **graphics** or for ease of editing put the content of the zip into a folder with the same name. Yes i am working on a pepe pack.
 
