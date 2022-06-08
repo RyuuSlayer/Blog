@@ -14,7 +14,7 @@ This is with no doubt the sad truth, which has in the past lead to ROMs going MI
 
 ![](/assets/09-06-22/romvault-mia.png)
 
-In this image you can exactly see what has been added, sets with MIAs are recognized as completed even with MIAs. But the incredible part about this, if someone ever scans one of these MIAs with RomVault, it will be sent to a database and marked as found. (This can be turned off if you value privacy, though i would appreciate you keeping it on.) This feature makes RomVault the leading MIA listing.
+In this image you can exactly see what has been added, sets with MIAs are recognized as completed even with MIAs. But the incredible part about this, if someone ever scans one of these MIAs with RomVault, it will be sent to a database and be marked as found. (This can be turned off if you value privacy, though i would appreciate you keeping it on.) This feature makes RomVault the leading MIA listing.
 
 ![](/assets/09-06-22/romvault-mia.png)
 
