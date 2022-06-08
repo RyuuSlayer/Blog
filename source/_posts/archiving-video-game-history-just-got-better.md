@@ -18,7 +18,7 @@ In this image you can exactly see what has been added, sets with MIAs are recogn
 
 ![](/assets/09-06-22/romvault-graphics.png)
 
-As a nice quality of life improvement, we got blessed with custom icons which can easily be replaced with whatever icon you can dream of. Either drop this [**zip**](/assets/09-06-22/graphics-accessible.zip) (Made by johnsanc from the RV discord.) in the same folder as the RomVault.exe and rename it to **graphics** or for ease of editing put the content of the zip into a folder with the same name. Yes i am working on a pepe pack.
+As a nice quality of life improvement, we got blessed with custom icons which can easily be replaced with whatever icon you can dream of. Either drop this [**zip**](/assets/09-06-22/graphics-accessible.zip) (Made by johnsanc from the RV discord.) into the same folder as the RomVault.exe and rename it to **graphics** or for ease of editing put the content of the zip into a folder with the same name. Yes i am working on a pepe pack.
 
 ![](/assets/09-06-22/pepe-love.gif)
 
