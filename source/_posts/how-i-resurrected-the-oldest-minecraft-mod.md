@@ -12,7 +12,7 @@ tags:
 The year is 2010, development on a Minecraft Mod called **AdventureCraft** has started. The one to write the mod is a man named Cryect. He worked with a few other people to create the biggest and most creative mod of the time and released it on the [Minecraft Forum](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1272366-1-3-2-adventurecraft-npc-pathing-blocks-r1095).
 But what makes it so special I hear you ask. It adds a special Debug mode which lets you create your own story through Trigger based blocks which activate when the player walks through them, thus doing whatever the Map Creator intended it to do through scripts. This opened the door to easily telling your own story through connecting a few of these Triggered Blocks, which the person playing can't see in Adventure mode.
 
-<iframe width="720" height="480" src="https://www.youtube.com/embed/CQSxxKkUP3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="720" height="480" src="https://www.youtube-nocookie.com/embed/CQSxxKkUP3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 In 2011 then, development stopped, Cryect disappeared, a few years later he uploaded a Video on his YouTube channel showing a VR game he made in his job as it seems. He didn't answer anything related AdventureCraft on his personal Twitter. AdventureCraft's community shrank and we find ourselves back in 2017 where my role found it's start. I knew the mod from back then & had nostalgic feelings for it, not long after I found a download and a few maps for it.
 
@@ -54,4 +54,4 @@ The guy who stayed in the development team **TechPizza** is a programming genius
 
 If you aren't convinced to try this mod out, watch this:
 
-<iframe width="720" height="480" src="https://www.youtube.com/embed/9Sm0pmBx4oI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="720" height="480" src="https://www.youtube-nocookie.com/embed/9Sm0pmBx4oI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
