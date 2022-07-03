@@ -1,6 +1,6 @@
 ---
 title: Converting roms like a Chad
-date: 2022-06-17 20:07:42
+date: 2022-06-18 20:07:42
 categories:
 - Tech
 tags:
