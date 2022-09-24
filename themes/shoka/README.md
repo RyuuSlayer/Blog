@@ -21,4 +21,4 @@ git clone https://github.com/amehime/hexo-theme-shoka.git ./themes/shoka
 
 4. View a site configuration example in the `example` folder.
 
-5. [Chinese instructions for use](https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/)
+5. [中文使用说明](https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/)
