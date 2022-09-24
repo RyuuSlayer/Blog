@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "hexo": "^6.3.0",
-    "hexo-algoliasearch": "^1.0.0",
+    "hexo-algoliasearch": "^0.3.2",
     "hexo-autoprefixer": "^2.0.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
@@ -24,7 +24,7 @@
     "hexo-renderer-multi-markdown-it": "^0.1.5",
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
-    "hexo-symbols-count-time": "^0.7.1",
+    "hexo-symbols-count-time": "^0.6.2",
     "highlight.js": "^11.6.0",
     "install": "^0.13.0",
     "lodash.pick": "^4.4.0"
