@@ -299,5 +299,5 @@ vendors:
     quicklink: npm/quicklink@2.3/dist/quicklink.umd.js
     fancybox: combine/npm/jquery@3.6.1/dist/jquery.min.js,npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js,npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js
     valine: gh/amehime/MiniValine@4.2.2/dist/MiniValine.min.js
-    copy_tex: npm/katex@0.16.0/dist/contrib/copy-tex.min.js
-    chart: npm/frappe-charts@1.5.8/dist/frappe-charts.min.iife.min.js
+    copy_tex: npm/katex@0.16.2/dist/contrib/copy-tex.min.js
+    chart: npm/frappe-charts@1.6.2/dist/frappe-charts.min.iife.min.js
